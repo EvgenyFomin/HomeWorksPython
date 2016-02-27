@@ -17,7 +17,7 @@ def lin_reg(x, y):
 fig = plt.figure()
 
 ax1 = fig.add_subplot(311)
-ax1.set_title(u'dataset_1')
+ax1.set_title('dataset_1')
 f = open('task2_dataset_1.txt', 'rb')
 x, y = pickle.load(f, encoding='ISO-8859-1')
 ax1.scatter(x, y)
